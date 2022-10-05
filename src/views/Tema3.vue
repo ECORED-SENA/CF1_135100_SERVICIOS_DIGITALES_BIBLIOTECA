@@ -31,7 +31,7 @@
         figure
           img(src="@/assets/curso/temas/t3/t3_02.svg", alt="alt")
       .col-lg-7
-        p(data-aos="fade") Las técnicas de importación y exportación de la información se pueden generar por medio de diferentes herramientas específicas para cada caso: entrevistas, encuestas o grupos focales cuando, por ejemplo, se trata de importar o recolectarla. Así mismo, cuando la intención es exportarla se acude a redes de conexión, circuitos o software especializados.
+        p(data-aos="fade") Las técnicas de importación y exportación de la información se pueden generar por medio de diferentes herramientas específicas para cada caso: entrevistas, encuestas o grupos focales cuando, por ejemplo, se trata de importar o recolectarla. Así mismo, cuando la intención es exportarla se acude a redes de conexión, circuitos o #[em software] especializados.
         p De las técnicas de recolección más comunes y usadas se pueden mencionar las siguientes.
 
         TabsA.color-acento-contenido(data-aos="zoom-in")
@@ -141,7 +141,7 @@
               figure.mb-4
                 img(src='@/assets/curso/temas/t3/t3_06.svg' alt='').img90.m-auto              
               h5.text-center Equipos y herramientas especializados
-              p.mb-0.text-center En el proceso y según las necesidades de almacenamiento se adquieren equipos hardware idóneos para almacenar, tener copias de seguridad, consultar y transferir datos con las siguientes características.
+              p.mb-0.text-center En el proceso y según las necesidades de almacenamiento se adquieren equipos #[em hardware] idóneos para almacenar, tener copias de seguridad, consultar y transferir datos con las siguientes características.
 
             .bg_crd_01.text-white.py-5.px-4.br_01
               figure.mb-4
@@ -199,8 +199,8 @@
             tr.cellBrown
               td.text-center(colspan='3') Herramientas de almacenamiento inform&aacute;ticas y digitales
             tr.cellLightBrown
-              td.text-center Software
-              td(colspan='2') Almacenamiento que se hace a trav&eacute;s de un software que extrae los datos, los organiza y los guarda en la red interna de la organizaci&oacute;n.
+              td.text-center #[em Software]
+              td(colspan='2') Almacenamiento que se hace a trav&eacute;s de un #[em software] que extrae los datos, los organiza y los guarda en la red interna de la organizaci&oacute;n.
             tr
               td.text-center Red
               td(colspan='2') Se lleva a cabo mediante la red interna de la organizaci&oacute;n, manteniendo un sistema operativo liviano, almacenando la informaci&oacute;n en un servidor local.
@@ -216,16 +216,16 @@
     separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 3.3 Software para registro de la información
+      h2 3.3 #[em Software] para registro de la información
 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t3/t3_09.png", alt="alt")
       .col-lg-7(data-aos="fade")
-        p El registro de la información se realiza a través de un software diseñado para extraer, modificar y programar los datos recolectados. Se elige según diferentes características y modelos existentes, configurándolo según las necesidades de cada entidad.
-        p Por otro lado, estos software garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
-        p Estos son algunos de los software más utilizados, actualmente, en las empresas y organizaciones:
+        p El registro de la información se realiza a través de un #[em software] diseñado para extraer, modificar y programar los datos recolectados. Se elige según diferentes características y modelos existentes, configurándolo según las necesidades de cada entidad.
+        p Por otro lado, estos #[em software] garantizan la confiabilidad de la fuente de datos, su seguridad, extracción, recuperación y gestión, así como la facilidad de su administración.
+        p Estos son algunos de los #[em software] más utilizados, actualmente, en las empresas y organizaciones:
 
     .row.justify-content-center
       .col-xl-4.col-md-6.mb-4(data-aos="flip-left")       
@@ -304,7 +304,7 @@
                 img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85
             .col
               h5.txt--brown ¡Atención! 
-              p.mb-0 Cada software tiene un protocolo específico que brinda una respuesta a diferentes necesidades, garantizando el desempeño esperado, según el programa elegido.
+              p.mb-0 Cada #[em software] tiene un protocolo específico que brinda una respuesta a diferentes necesidades, garantizando el desempeño esperado, según el programa elegido.
 
       .col-lg-4.d-none.d-lg-flex
         figure
@@ -313,17 +313,17 @@
     separador
 
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade") 
-      h2 3.4 Protocolos y relaciones en las herramientas de software
+      h2 3.4 Protocolos y relaciones en las herramientas de #[em software]
 
     .row.justify-content-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t3/t3_11.png", alt="alt")
       .col-lg-7(data-aos="fade")
-        p En los software, los protocolos y relaciones se ven reflejados en #[span.txt--orange.bold interoperabilidad y regulación de flujo]. Esto quiere decir que la herramienta permite leer diferentes fuentes de datos, sin importar el tipo de formato del archivo y ayuda a que la capacidad del equipo no afecte los archivos por velocidad de descarga omitiendo, en ocasiones, datos.
+        p En los #[em software], los protocolos y relaciones se ven reflejados en #[span.txt--orange.bold interoperabilidad y regulación de flujo]. Esto quiere decir que la herramienta permite leer diferentes fuentes de datos, sin importar el tipo de formato del archivo y ayuda a que la capacidad del equipo no afecte los archivos por velocidad de descarga omitiendo, en ocasiones, datos.
         p Así mismo, los protocolos y relaciones se reflejan también en #[span.txt--orange.bold congestiones], es decir, que permite administrar las redes para evitar disminución de la calidad en el flujo de información limitando usuarios o permitiendo accesos. En cuanto a los errores, permite identificar, mitigar errores, bloquear fuentes, archivos con fallas o maliciosos.
 
-    p(data-aos="fade").mb-5.text-center Entre los protocolos en herramientas de software, se pueden mencionar:
+    p(data-aos="fade").mb-5.text-center Entre los protocolos en herramientas de #[em software], se pueden mencionar:
 
     .row.justify-content-center.mb-5
       .col-lg-4.g-0(data-aos="flip-left")
