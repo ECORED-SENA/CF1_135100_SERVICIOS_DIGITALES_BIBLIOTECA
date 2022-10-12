@@ -175,6 +175,10 @@
 
     p(data-aos="fade").mb-5 En la tabla que se muestra enseguida se exponen los métodos digitales de almacenamiento más utilizados en las empresas y demás organizaciones, como las bibliotecas.
 
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 5.
+      span Métodos digitales de almacenamiento para consulta en las entidades
+
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-10
         table

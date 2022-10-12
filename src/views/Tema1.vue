@@ -144,7 +144,7 @@
               .bg--white.p-4.br_01
                 figure.mb-4
                   img(src="@/assets/curso/temas/t1/t1_13.svg", alt="alt").img90
-                h5 Formatos abiertos
+                h5 Formatos cerrados
                 p.mb-0 Son los que están disponibles, sin restricciones por el #[em software], a cualquier usuario para su consulta, reutilización y manejo.
 
     p(data-aos="fade").text-center.mb-5 Y ahora, a reconocer los formatos más utilizados, y sus características, en la consolidación de archivos o documentos digitales.
@@ -259,7 +259,7 @@
 
           .row.justify-content-center(data-aos="zoom-in")
             .col-auto
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/normatividad_clasificacion_digital.pdf')" target="_blank")             
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -307,36 +307,42 @@
         .row.justify-content-center
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
+              .numb(data-numb="1")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_18.svg", alt="alt").img90.m-auto
               h5.txt--brown.text-center inicio
               p.mb-0 Inicia con la creación de un inventario de datos generales que administra la entidad.
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
+              .numb(data-numb="2")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_19.svg", alt="alt").img90.m-auto
               h5.txt--brown.text-center Identificación
               p.mb-0 Identifica los creadores de la información.
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
+              .numb(data-numb="3")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_20.svg", alt="alt").img90.m-auto
               h5.txt--brown.text-center Clasificación
               p.mb-0 Clasifica la información por niveles de confidencialidad y consulta.
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
+              .numb(data-numb="4")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_21.svg", alt="alt").img90.m-auto
               h5.txt--brown.text-center Definición
               p.mb-0 Define los permisos de consulta y edición de la información.
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
+              .numb(data-numb="5")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_22.svg", alt="alt").img90.m-auto
               h5.txt--brown.text-center Almacenamiento
               p.mb-0 Establece métodos de archivo y guardado de la información.
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
+              .numb(data-numb="6")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_23.svg", alt="alt").img90.m-auto
               h5.txt--brown.text-center Aseguramiento

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Metadatos
 
     .row.justify-content-center.mb-4
       .col-lg-3(data-aos="fade")
@@ -16,7 +16,7 @@
             figure
               img(src="@/assets/curso/temas/t2/t2_01.png", alt="alt")
           .col-lg-8(data-aos="zoom-in")
-            p Los metadatos son #[span.txt--orange referencias estructuradas o semiestructuradas] que permiten el establecimiento de la clasificación, redacción y archivo de la información documental en su ciclo de vida o trayectoria para regular la autenticidad, consulta y contextualización de los datos.
+            p Los metadatos son #[span.txt--orange.bold referencias estructuradas o semiestructuradas] que permiten el establecimiento de la clasificación, redacción y archivo de la información documental en su ciclo de vida o trayectoria para regular la autenticidad, consulta y contextualización de los datos.
             .bg--darkOrange.p-4.br_01
               .row  
                 .col-auto
@@ -71,11 +71,15 @@
             .col-12
               p Que permita, en el documento, verificar su contenido completo y que cumpla con lo solicitado.
 
-          .row(numero="3" titulo="Utilidad")
+          .row(numero="3" titulo="Confiabilidad")
+            .col-12
+              p Que permita, en el documento, identificar su procedencia, fuentes, datos y, desde luego, la veracidad.
+
+          .row(numero="4" titulo="Utilidad")
             .col-12
               p Que la información sea de ayuda para la localización, contextualización y trazabilidad del documento.
 
-          .row(numero="4" titulo="Entendible")
+          .row(numero="5" titulo="Entendible")
             .col-12
               p Que descifre de forma clara en el documento lo que se quiere consultar.
 
@@ -106,12 +110,12 @@
 
           .bg--paleOrange.br_01.p-3(x="90.3%" y="72%" numero="+")
             h5 Funciones generales
-            p Se centran en generar controles, normas y políticas para el buen desarrollo de la gestión.
+            p Brindan soporte al proceso y garantizan que la información esté acorde a lo solicitado. 
 
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 2.2 Criterios de diligenciamiento
+      h2 2.2 Herramientas electrónicas en la gestión de metadatos
 
     .row.justify-content-center(data-aos="fade")
       .col-auto
@@ -122,8 +126,9 @@
 
     p(data-aos="fade").mb-5 Para ampliar los saberes en relación con las herramientas electrónicas más utilizadas en esta gestión, se invita a analizar en detalle la tabla que, enseguida, se muestra.
 
-    .bg--grad_01.pb-5.mb-4(data-aos="zoom-in")
+    .bg--grad_01.pb-5.mb-4(data-aos="zoom-in")      
       .bg_slyder_01.p-5
+        h5.text-center Herramientas electrónicas en la gestión de metadatos en entidades de información digital. 
         .row.justify-content-center.align-items-center
           .col-lg-4.d-none.d-lg-flex
             figure
@@ -138,7 +143,7 @@
                     h5.txt--orange Característica y función
                     p.mb-4 Aplicación en línea que ordena metadatos en los archivos, de forma básica a completa recibe formatos como JPG, TIFF, PNG, RAW, SMP, con un peso no superior a los 20 Mb.
                     h5.txt--orange Uso
-                    p.mb-0 PEn imágenes, audio y video.
+                    p.mb-0 En imágenes, audio y video.
 
                 .row
                   .col-12.text-center
@@ -265,6 +270,7 @@
     .bg_img_03.pb-4
       .row.justify-content-center
         .col-lg-10
+          h5.text-center.mb-4 Normas de seguridad
           SlyderF(columnas="col-md-6 col-lg-6 col-xl-4")(data-aos="zoom-in")
             .bg_crd_01.text-white.py-5.px-4.br_01
               figure.mb-4
@@ -282,13 +288,7 @@
               figure.mb-4
                 img(src='@/assets/curso/temas/t1/t1_26.svg' alt='').img90.m-auto              
               h5.text-center Norma 27005
-              p.mb-0.text-center Tiene su enfoque basado en la gestión del riesgo de la información y su adecuada aplicación.
-
-            .bg_crd_01.text-white.py-5.px-4.br_01
-              figure.mb-4
-                img(src='@/assets/curso/temas/t1/t1_26.svg' alt='').img90.m-auto              
-              h5.text-center Norma 27005
-              p.mb-0.text-center Tiene su enfoque basado en la gestión del riesgo de la información y su adecuada aplicación.
+              p.mb-0.text-center Tiene su enfoque basado en la gestión del riesgo de la información y su adecuada aplicación.            
 
             .bg_crd_01.text-white.py-5.px-4.br_01
               figure.mb-4

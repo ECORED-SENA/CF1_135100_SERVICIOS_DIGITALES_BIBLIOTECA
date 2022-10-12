@@ -105,6 +105,21 @@
   color: #785549
 .txt--orange
   color: #FD9827
+  
+.numb
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: attr(data-numb)
+    position: absolute
+    top: 3%
+    left: 3%
+    width: 100%
+    height: 100%
+    font-size: 14pt
+    font-weight: 700
+    color: black
 
 // bg colors -----------------------------------------
 .bg--white
