@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF1 - Preparación y registro de información**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_135100_SERVICIOS_DIGITALES_BIBLIOTECA/](https://ecored-sena.github.io/CF1_135100_SERVICIOS_DIGITALES_BIBLIOTECA/)
 
 #
 
