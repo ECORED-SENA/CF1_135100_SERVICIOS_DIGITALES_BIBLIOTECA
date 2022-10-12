@@ -135,13 +135,13 @@
         .col-lg-8
           .row.justify-content-center
             .col-lg-6.col-8.mb-4.mb-lg-0(data-aos="flip-left") 
-              .bg--white.p-4.br_01
+              .bg--white.p-4.br_01.hg-100
                 figure.mb-4
                   img(src="@/assets/curso/temas/t1/t1_12.svg", alt="alt").img90
                 h5 Formatos abiertos
                 p.mb-0 Son los que están disponibles, sin restricciones por el #[em software], a cualquier usuario para su consulta, reutilización y manejo.
             .col-lg-6.col-8.mb-4.mb-lg-0(data-aos="flip-left") 
-              .bg--white.p-4.br_01
+              .bg--white.p-4.br_01.hg-100
                 figure.mb-4
                   img(src="@/assets/curso/temas/t1/t1_13.svg", alt="alt").img90
                 h5 Formatos cerrados
