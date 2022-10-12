@@ -259,7 +259,7 @@
               figure
                 img(src="@/assets/curso/temas/recursos/halfCircle_04.svg", alt="alt").img60.m-auto
             .col
-              p.mb-0 Por lo anterior, las organizaciones se rigen por unas #[span.txt--brown normas de seguridad de la información] que permiten dar una guía y soporte para la adecuada conservación, confidencialidad y mitigación de pérdida, riesgos o fugas de los datos que pueden ocasionar daños y perjuicios.
+              p.mb-0 Por lo anterior, las organizaciones se rigen por unas #[span.txt--brown.bold normas de seguridad de la información] que permiten dar una guía y soporte para la adecuada conservación, confidencialidad y mitigación de pérdida, riesgos o fugas de los datos que pueden ocasionar daños y perjuicios.
 
         p(data-aos="fade").mb-0 Por eso, se deben conocer y tener en cuenta las principales normas de seguridad de la información que, en la actualidad, regulan esta gestión de las empresas, organizaciones y proyectos que se exponen en la siguiente tabla.
       .col-lg-5.col-8(data-aos="flip-left")

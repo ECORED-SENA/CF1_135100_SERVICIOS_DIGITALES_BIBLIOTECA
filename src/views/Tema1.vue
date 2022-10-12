@@ -145,7 +145,7 @@
                 figure.mb-4
                   img(src="@/assets/curso/temas/t1/t1_13.svg", alt="alt").img90
                 h5 Formatos cerrados
-                p.mb-0 Son los que están disponibles, sin restricciones por el #[em software], a cualquier usuario para su consulta, reutilización y manejo.
+                p.mb-0 Tiene la especificación de no estar disponible al público en general y cuenta con algunas limitaciones o restricciones para editar, reutilizar o consultar. 
 
     p(data-aos="fade").text-center.mb-5 Y ahora, a reconocer los formatos más utilizados, y sus características, en la consolidación de archivos o documentos digitales.
 
@@ -259,7 +259,7 @@
 
           .row.justify-content-center(data-aos="zoom-in")
             .col-auto
-              a.anexo.mb-4(:href="obtenerLink('/downloads/normatividad_clasificacion_digital.pdf')" target="_blank")             
+              a.anexo.mb-4(:href="obtenerLink('/downloads/normatividad_clasificacion_digital.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
