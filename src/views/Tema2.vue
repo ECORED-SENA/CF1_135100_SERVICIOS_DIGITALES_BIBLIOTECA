@@ -8,20 +8,24 @@
       h1 Metadatos
 
     .row.justify-content-center.mb-4
-      .col-lg-3(data-aos="fade")
+      .col-xl-3(data-aos="fade")
         p Para garantizar la autenticidad y fiabilidad de los documentos, las organizaciones privadas como públicas implementan metadatos para conocer la trayectoria de su archivo.
-      .col-lg-9(data-aos="flip-left")
+      .col-xl-9(data-aos="flip-left")
         .row.justify-content-center
-          .col-lg-4.col-8.mb-4
+          .col-lg-4.d-none.d-xl-flex.mb-4
             figure
               img(src="@/assets/curso/temas/t2/t2_01.png", alt="alt")
-          .col-lg-8(data-aos="zoom-in")
+
+          .col-10.d-xl-none.d-flex.d.mb-4
+            figure
+              img(src="@/assets/curso/temas/t2/t2_01A.jpg", alt="alt")
+          .col-xl-8(data-aos="zoom-in")
             p Los metadatos son #[span.txt--orange.bold referencias estructuradas o semiestructuradas] que permiten el establecimiento de la clasificación, redacción y archivo de la información documental en su ciclo de vida o trayectoria para regular la autenticidad, consulta y contextualización de los datos.
             .bg--darkOrange.p-4.br_01
               .row  
-                .col-auto
+                .col-12.col-md-auto.mb-4.mb-md-0
                   figure
-                    img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85
+                    img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85.m-auto
                 .col
                   h5.txt--brown ¡Atención!
                   p.mb-0 La información que describe un documento desde su creación hasta su proceso de conservación como autores, casa editorial, títulos, fechas, entre otros datos, se denomina metadato.
@@ -59,10 +63,10 @@
     p(data-aos="fade") Una vez se tienen claras las fases de asignación de los metadatos a utilizar, se deben comprender #[span.txt--brown.bold los criterios para el diligenciamiento de la información], así:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-4.col-8.order-2.order-lg-1(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t2/t2_04.svg", alt="alt")
-      .col-lg-8(data-aos="fade")
+      .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade")
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Autenticidad")
             .col-12
@@ -119,7 +123,7 @@
       h2 2.2 Herramientas electrónicas en la gestión de metadatos
 
     .row.justify-content-center(data-aos="fade")
-      .col-auto
+      .col-auto.d-none.d-lg-flex
         figure
           img(src="@/assets/curso/temas/recursos/halfCircle_03.svg", alt="alt").img85
       .col
@@ -128,7 +132,7 @@
     p(data-aos="fade").mb-5 Para ampliar los saberes en relación con las herramientas electrónicas más utilizadas en esta gestión, se invita a analizar en detalle la tabla que, enseguida, se muestra.
 
     .bg--grad_01.pb-5.mb-4(data-aos="zoom-in")      
-      .bg_slyder_01.p-5
+      .bg_slyder_01.p-lg-5.p-3
         h5.text-center Herramientas electrónicas en la gestión de metadatos en entidades de información digital. 
         .row.justify-content-center.align-items-center
           .col-lg-4.d-none.d-lg-flex
@@ -250,8 +254,8 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.3 Normas de seguridad de la información
 
-    .row.justify-content-center.mb-4
-      .col-lg-7
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
         p(data-aos="fade") Las organizaciones, en sus operaciones, administran información clasificada en formatos abiertos o cerrados, acorde a los lineamientos institucionales y definiendo los datos confidenciales, restringidos, internos y públicos. Esta información puede ser sensible para el funcionamiento de la entidad y, aún más, para sus partes interesadas.
 
         .bg--darkOrange.py-4.pe-4.mb-4(data-aos="zoom-in")
@@ -361,28 +365,28 @@
       p(data-aos="fade").mb-4 Los criterios que deben tenerse en cuenta para tal categorización u organización de las entidades de información digital son:
 
       .row.justify-content-center.mb-4
-        .col-lg-3(data-aos="flip-left")
+        .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="flip-left")
           .bg_crd_01.text-white.py-5.px-4.br_01
             figure.mb-4
               img(src='@/assets/curso/temas/t2/t2_08.svg' alt='').img90.m-auto              
             h5.text-center De procedencia
             p.mb-0.text-center Se identifican las carpetas según su trayectoria.
 
-        .col-lg-3(data-aos="flip-left")
+        .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="flip-left")
           .bg_crd_01.text-white.py-5.px-4.br_01
             figure.mb-4
               img(src='@/assets/curso/temas/t2/t2_09.svg' alt='').img90.m-auto              
             h5.text-center De temática
             p.mb-0.text-center Se organiza la información en carpetas según sus temas y subtemas.
 
-        .col-lg-3(data-aos="flip-left")
+        .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="flip-left")
           .bg_crd_01.text-white.py-5.px-4.br_01
             figure.mb-4
               img(src='@/assets/curso/temas/t2/t2_10.svg' alt='').img90.m-auto              
             h5.text-center De autores
             p.mb-0.text-center Se organizan según el área, proceso o funcionario que crea el documento en carpetas.
 
-        .col-lg-3(data-aos="flip-left")
+        .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="flip-left")
           .bg_crd_01.text-white.py-5.px-4.br_01
             figure.mb-4
               img(src='@/assets/curso/temas/t2/t2_11.svg' alt='').img90.m-auto              
@@ -393,10 +397,10 @@
         .col-lg-12
           .bg--darkOrange.br_01.py-4.pe-4
             .row.align-items-center  
-              .col-auto
+              .col-12.col-md-auto.mb-4.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/recursos/warning_02.svg", alt="alt").img120
-              .col
+                  img(src="@/assets/curso/temas/recursos/warning_02.svg", alt="alt").img120.m-auto
+              .col.px-5.p-md-0
                 h5 ¡Atención!
                 p.mb-0 Cabe resaltar que la función de categorizar u organizar las entidades de información digital, es permitir tener mecanismos de consulta, disponibilidad, conservación, calidad de los datos y orden, lo cual fortalecerá la gestión en la toma de decisiones basadas en información.       
       

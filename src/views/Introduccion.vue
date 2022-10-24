@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .bg--paleOrange.p-4.br_01.mb-5(data-aos="zoom-in")
+    .bg_intro.p-5.br_01.mb-5(data-aos="zoom-in")
       .row  
         .col-auto
           figure

@@ -8,23 +8,23 @@
       h1 Entidades de información digital
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
-      .col-lg-6.mb-4.mb-lg-0
+      .col-xl-6.mb-4.mb-lg-0
         .row
-          .col-6
-            figure.mb-4
+          .col-xl-6
+            figure.mb-4.d-none.d-xl-flex
               img(src="@/assets/curso/temas/recursos/halfCircle_01.svg", alt="alt").img85
             p Las entidades de información son aquellas unidades de bases de datos que se administran, digitalmente, en diferentes representaciones dentro de una organización y que categorizan la información según las necesidades de agrupamiento de datos.
-          .col-6
+          .col-6.d-none.d-xl-flex
             figure
               img(src="@/assets/curso/temas/t1/t1_01.jpg", alt="alt")
-      .col-lg-6
+      .col-xl-6
         p Por ejemplo, en una unidad de negocio las entidades de información se pueden dividir en áreas como: administrativas, financieras, comerciales, logísticas, etc., o acorde a parámetros como edad de trabajadores, cargos, cuentas por pagar, clientes, entrada de mercancía y demás.
 
         .bg--paleOrange.p-4
           .row  
-            .col-auto
+            .col-12.col-md-auto.mb-4.mb-md-0
               figure
-                img(src="@/assets/curso/temas/recursos/warning_01.svg", alt="alt").img85
+                img(src="@/assets/curso/temas/recursos/warning_01.svg", alt="alt").img85.m-auto
             .col
               h5.txt--brown ¡Nota!
               p.mb-0 El fin último de las entidades de información y su clasificación, es contar con una fuente de información organizada, confiable, exacta, que favorezca el reconocimiento de los procesos generales de la empresa.
@@ -53,7 +53,7 @@
       h2  1.1 Alistamiento y preparación
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-6.mb-4.mb-lg-0(data-aos="flip-left")
+      .col-lg-4.d-none.d-lg-flex(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/t1/t1_04.png", alt="alt")
       .col-lg-8
@@ -88,9 +88,9 @@
 
         .bg--paleOrange.p-4(data-aos="zoom-in")
           .row  
-            .col-auto
+            .col-12.col-md-auto.mb-4.mb-md-0
               figure
-                img(src="@/assets/curso/temas/recursos/warning_01.svg", alt="alt").img85
+                img(src="@/assets/curso/temas/recursos/warning_01.svg", alt="alt").img85.m-auto
             .col
               h5.txt--brown ¡Importante!
               p.mb-0 Los datos deben ser “llamativos”, entendibles y accesibles para el usuario. Para esto se deben tener en cuenta los objetivos de alistamiento y preparación de la información.
@@ -150,7 +150,7 @@
     p(data-aos="fade").text-center.mb-5 Y ahora, a reconocer los formatos más utilizados, y sus características, en la consolidación de archivos o documentos digitales.
 
     .bg--grad_01.pb-5.mb-4(data-aos="zoom-in")
-      .bg_slyder_01.p-5.br_01
+      .bg_slyder_01.p-3.p-md-5.br_01
         .row.justify-content-center.align-items-center
           .col-lg-4.d-none.d-lg-flex
             figure
@@ -265,7 +265,7 @@
                 .anexo__texto
                   p Anexo. Normatividad en la clasificación digital
 
-        .col-lg-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
+        .col-lg-6.col-10.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
           figure
             img(src="@/assets/curso/temas/t1/t1_15.png", alt="alt")
 
@@ -273,10 +273,10 @@
         .col-lg-10
           .bg--darkBlue.br_01.py-4.pe-4
             .row.align-items-center  
-              .col-auto
+              .col-12.col-md-auto.mb-4.mb-md-0
                 figure
-                  img(src="@/assets/curso/temas/recursos/warning_02.svg", alt="alt").img120
-              .col
+                  img(src="@/assets/curso/temas/recursos/warning_02.svg", alt="alt").img120.m-auto
+              .col.px-5.p-md-0
                 h5.text-white ¡Atención!
                 p.text-white.mb-0 Muchas entidades están obligadas, por ley, a cumplir solo con determinadas normativas que regulan su funcionamiento, especialmente en operaciones en las cuales se utiliza información sensible de sus clientes.
 

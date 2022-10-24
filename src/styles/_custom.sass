@@ -181,7 +181,7 @@
       color: white
 
 // bg img  -----------------------------------------
-.bg_img_01, .bg_img_02, .bg_img_03, .bg_slyder_02
+.bg_img_01, .bg_img_02, .bg_img_03, .bg_slyder_02,
   position: relative
   & > *
     position: relative
@@ -234,6 +234,16 @@
   background-size: cover
   background-position: bottom center
 
+.bg_intro
+  width: 100%
+  height: 100%
+  background-image: url("../assets/curso/temas/recursos/intro.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: bottom center
+
+
+
 // slyder B custom  -----------------------------------------
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   border: none
@@ -278,6 +288,9 @@
   background-color: #E8E8E8
 
 // Table  -----------------------------------------
+.tabla-a
+  thead
+    border-top: none
 .cellBrown
   color: white
   font-size: 13pt
@@ -312,3 +325,23 @@
   top: 50%
   left: 50%
   transform: translate(-50%,-50%)
+
+
+// slider  -----------------------------------------
+@media (max-width: 1200px)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px
+    height: 35px
+  .slyder-a__bullets__item
+    width: 10px
+    height: 10px
+    margin: 0 7px
+
+@media (max-width: 750px)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 25px
+    height: 25px
+  .slyder-a__bullets__item
+    width: 7px
+    height: 7px
+    margin: 0 5px

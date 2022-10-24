@@ -8,18 +8,19 @@
       h1 Registro de información
 
     .row.justify-content-center.mb-5
-      .col-lg-7(data-aos="fade")
+      .col-lg-7.order-2.order-lg-1(data-aos="fade")
         p El registro de información digital es el proceso de relacionar o redactar los datos de forma virtual, dejando evidencia de sucesos, actividades o programaciones, con el propósito de crear una fuente de consulta llamada #[span.txt--orange.bold base de datos].
         p Esta actividad se corresponde con las necesidades que las empresas tienen de llevar un control en sus procesos, por ejemplo, en la venta de un producto al generar registro de inventario de salida y entrada de dinero, como también en una biblioteca al dejar registro del préstamo de un libro.
         .bg--darkOrange.p-4.br_01(data-aos="zoom-in")
           .row  
-            .col-auto
+            .col-12.col-md-auto.mb-4.mb-md-0
               figure
-                img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85
+                img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85.m-auto
             .col
-              h5.txt--brown ¡Importance!
+              h5.txt--brown ¡Importante!
               p.mb-0 El registro de información permite dejar evidencia de los sucesos diarios o eventuales en una organización, los cuales pueden servir de consulta para la toma de decisiones o como comprobante de las actividades y gestión con los usuarios.
-      .col-lg-5(data-aos="flip-right")
+
+      .col-lg-5.col-8.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="flip-right")
         figure
           img(src="@/assets/curso/temas/t3/t3_01.svg", alt="alt")
 
@@ -27,7 +28,7 @@
       h2 3.1 Técnicas de recolección y exportación de información
 
     .row.justify-content-center
-      .col-lg-5(data-aos="flip-left")
+      .col-lg-5.col-8.mb-4.mb-lg-0(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/t3/t3_02.svg", alt="alt")
       .col-lg-7
@@ -59,9 +60,9 @@
             h4 Grupos focales
             p Se utiliza con frecuencia dentro de las comunidades: educativas, religiosas, juntas de acción comunal y demás.
 
-    p(data-aos="fade").mb-5 Así mismo, para el reconocimiento de las técnicas de exportación de la información, usada por las bibliotecas y demás empresas u organizaciones, se emplean las siguientes:
+    p(data-aos="fade").my-5 Así mismo, para el reconocimiento de las técnicas de exportación de la información, usada por las bibliotecas y demás empresas u organizaciones, se emplean las siguientes:
     
-    .bg_slyder_01.p-5.mb-5(data-aos="zoom-in")
+    .bg_slyder_01.p-4.p-md-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg-7
           .bg--white.br_01.p-4
@@ -99,10 +100,10 @@
       .col-lg-12
         .bg--darkOrange.br_01.py-4.pe-4
           .row.align-items-center  
-            .col-auto
+            .col-12.col-md-auto.mb-4.mb-md-0
               figure
-                img(src="@/assets/curso/temas/recursos/warning_02.svg", alt="alt").img120
-            .col
+                img(src="@/assets/curso/temas/recursos/warning_02.svg", alt="alt").img120.m-auto
+            .col.px-5.p-lg-0
               h5 ¡Atención!
               p.mb-0 Tenga claro que las técnicas que se establecen, ya sean para la transferencia o recolección de información, dependen de las necesidades de cada biblioteca o entidad y de las herramientas con las que cuenta. 
     
@@ -112,7 +113,7 @@
       h2 3.2 Métodos de almacenamiento y consulta de información
 
     .row.justify-content-center(data-aos="zoom-in")
-      .col-auto
+      .col-auto.d-none.d-lg-flex
         figure
           img(src="@/assets/curso/temas/recursos/halfCircle_03.svg", alt="alt").img85
       .col
@@ -150,11 +151,11 @@
               p.mb-0.text-center Capacidad suficiente, rendimiento pertinente, fiabilidad total, recuperabilidad amplia.
 
     .row.justify-content-center.mb-5
-      .col-lg-5(data-aos="flip-left")
+      .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/t3/t3_08.png", alt="alt")
       .col-lg-7(data-aos="fade")
-        p Entre las características más fundamentales que deberán tener los equipos especializados para el almacenamiento de la información, están:
+        p.mb-5 Entre las características más fundamentales que deberán tener los equipos especializados para el almacenamiento de la información, están:
 
         TabsA.color-acento-contenido(data-aos="zoom-in")
           .bg--darkGray.p-5.br_01(titulo="Capacidad")
@@ -181,37 +182,38 @@
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-10
-        table
-          thead
-            tr.cellBrown
-              th.text-center M&eacute;todo de almacenamiento
-              th.text-center Generalidades
-              th.text-center Ejemplo
-          tbody
-            tr.cellLightBrown
-              td.text-center Magn&eacute;ticas
-              td Se archivan los datos en un dispositivo que contiene una banda magn&eacute;tica. Es una herramienta primaria de almacenamiento, pero pese a esto algunas entidades las utilizanpara crear copias de seguridad de la informaci&oacute;n.
-              td.text-center Casetes
-            tr
-              td.text-center &Oacute;pticas
-              td Son herramientas de almacenamiento que, por medio de discosmagn&eacute;ticos, guardan la informaci&oacute;n al girar a una gran velocidad.
-              td.text-center CD-ROOM
-            tr.cellLightBrown
-              td.text-center S&oacute;lidas
-              td Herramientas de almacenamiento de datos por medio de chipsque contienen memorias flash que conservan la informaci&oacute;n, aun cuando no existe suministro de energ&iacute;a y pueden ser port&aacute;tiles.
-              td.text-center Disco Duro interno o externo, USB.                
-            tr.cellBrown
-              td.text-center(colspan='3') Herramientas de almacenamiento inform&aacute;ticas y digitales
-            tr.cellLightBrown
-              td.text-center #[em Software]
-              td(colspan='2') Almacenamiento que se hace a trav&eacute;s de un #[em software] que extrae los datos, los organiza y los guarda en la red interna de la organizaci&oacute;n.
-            tr
-              td.text-center Red
-              td(colspan='2') Se lleva a cabo mediante la red interna de la organizaci&oacute;n, manteniendo un sistema operativo liviano, almacenando la informaci&oacute;n en un servidor local.
-            tr.cellLightBrown
-              td.text-center Cloud
-              td Son aquellos que se conservan en la nube a trav&eacute;s de internet y pueden ser consultados por las personas en tiempo real si tienen los permisos establecidos, no siendo necesario estar en el sitio de trabajo compartiendo la red interna.
-              td.text-center Google Drive, SharePoint y las herramientas del Big Data.
+        .tabla-a
+          table
+            thead
+              tr.cellBrown
+                th.text-center M&eacute;todo de almacenamiento
+                th.text-center Generalidades
+                th.text-center Ejemplo
+            tbody
+              tr.cellLightBrown
+                td.text-center Magn&eacute;ticas
+                td Se archivan los datos en un dispositivo que contiene una banda magn&eacute;tica. Es una herramienta primaria de almacenamiento, pero pese a esto algunas entidades las utilizanpara crear copias de seguridad de la informaci&oacute;n.
+                td.text-center Casetes
+              tr
+                td.text-center &Oacute;pticas
+                td Son herramientas de almacenamiento que, por medio de discosmagn&eacute;ticos, guardan la informaci&oacute;n al girar a una gran velocidad.
+                td.text-center CD-ROOM
+              tr.cellLightBrown
+                td.text-center S&oacute;lidas
+                td Herramientas de almacenamiento de datos por medio de chipsque contienen memorias flash que conservan la informaci&oacute;n, aun cuando no existe suministro de energ&iacute;a y pueden ser port&aacute;tiles.
+                td.text-center Disco Duro interno o externo, USB.                
+              tr.cellBrown
+                td.text-center(colspan='3') Herramientas de almacenamiento inform&aacute;ticas y digitales
+              tr.cellLightBrown
+                td.text-center #[em Software]
+                td(colspan='2') Almacenamiento que se hace a trav&eacute;s de un #[em software] que extrae los datos, los organiza y los guarda en la red interna de la organizaci&oacute;n.
+              tr
+                td.text-center Red
+                td(colspan='2') Se lleva a cabo mediante la red interna de la organizaci&oacute;n, manteniendo un sistema operativo liviano, almacenando la informaci&oacute;n en un servidor local.
+              tr.cellLightBrown
+                td.text-center Cloud
+                td Son aquellos que se conservan en la nube a trav&eacute;s de internet y pueden ser consultados por las personas en tiempo real si tienen los permisos establecidos, no siendo necesario estar en el sitio de trabajo compartiendo la red interna.
+                td.text-center Google Drive, SharePoint y las herramientas del Big Data.
 
 
     .row.justify-content-center
@@ -303,9 +305,9 @@
       .col-lg-8
         .bg--darkOrange.p-4.br_01
           .row  
-            .col-auto
+            .col-12.col-md-auto.mb-4.mb-md-0
               figure
-                img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85
+                img(src="@/assets/curso/temas/recursos/warning_01A.svg", alt="alt").img85.m-auto
             .col
               h5.txt--brown ¡Atención! 
               p.mb-0 Cada #[em software] tiene un protocolo específico que brinda una respuesta a diferentes necesidades, garantizando el desempeño esperado, según el programa elegido.
@@ -320,10 +322,10 @@
       h2 3.4 Protocolos y relaciones en las herramientas de #[em software]
 
     .row.justify-content-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-xl-5.col-md-10.mb-4.mb-xl-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t3/t3_11.png", alt="alt")
-      .col-lg-7(data-aos="fade")
+      .col-xl-7(data-aos="fade")
         p En los #[em software], los protocolos y relaciones se ven reflejados en #[span.txt--orange.bold interoperabilidad y regulación de flujo]. Esto quiere decir que la herramienta permite leer diferentes fuentes de datos, sin importar el tipo de formato del archivo y ayuda a que la capacidad del equipo no afecte los archivos por velocidad de descarga omitiendo, en ocasiones, datos.
         p Así mismo, los protocolos y relaciones se reflejan también en #[span.txt--orange.bold congestiones], es decir, que permite administrar las redes para evitar disminución de la calidad en el flujo de información limitando usuarios o permitiendo accesos. En cuanto a los errores, permite identificar, mitigar errores, bloquear fuentes, archivos con fallas o maliciosos.
 
