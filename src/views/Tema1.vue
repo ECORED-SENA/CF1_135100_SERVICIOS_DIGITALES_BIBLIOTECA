@@ -255,7 +255,7 @@
               .col
                 p.mb-0 El propósito de gestionar la clasificación en la entidad es garantizar el acceso a la información por las partes interesadas, proteger los datos mejorando la seguridad y la transparencia de esta.
 
-          p(data-aos="fade").mb-4 Para que la clasificación se haga adecuadamente es necesario tener en cuenta la normatividad que aplica en el proceso. La misma, se muestra en la siguiente tabla; y se invita a tomar nota de ello en la libreta personal de apuntes.
+          p(data-aos="fade").mb-4 Para que la clasificación se haga adecuadamente es necesario tener en cuenta la normatividad que aplica en el proceso. La misma, se muestra en el siguiente anexo; y se invita a tomar nota de ello en la libreta personal de apuntes.
 
           .row.justify-content-center(data-aos="zoom-in")
             .col-auto
@@ -310,7 +310,7 @@
               .numb(data-numb="1")
               figure.mb-4
                 img(src="@/assets/curso/temas/t1/t1_18.svg", alt="alt").img90.m-auto
-              h5.txt--brown.text-center inicio
+              h5.txt--brown.text-center Inicio
               p.mb-0 Inicia con la creación de un inventario de datos generales que administra la entidad.
           .col-lg-4.mb-4(data-aos="flip-left")
             .bg--paleOrange.p-4.hg-100
@@ -385,7 +385,8 @@
 
       figure(data-aos="fade")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/SjTfbLtaNOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)         
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/YD1XiDDvffs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
+             
 
       
 </template>

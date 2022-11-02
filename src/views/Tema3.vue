@@ -33,7 +33,7 @@
           img(src="@/assets/curso/temas/t3/t3_02.svg", alt="alt")
       .col-lg-7
         p(data-aos="fade") Las técnicas de importación y exportación de la información se pueden generar por medio de diferentes herramientas específicas para cada caso: entrevistas, encuestas o grupos focales cuando, por ejemplo, se trata de importar o recolectarla. Así mismo, cuando la intención es exportarla se acude a redes de conexión, circuitos o #[em software] especializados.
-        p De las técnicas de recolección más comunes y usadas se pueden mencionar las siguientes.
+        p De las técnicas de recolección más comunes y usadas se pueden mencionar las siguientes:
 
         TabsA.color-acento-contenido(data-aos="zoom-in")
           .bg--darkGray.p-5.br_01(titulo="Encuestas")
@@ -160,7 +160,7 @@
         TabsA.color-acento-contenido(data-aos="zoom-in")
           .bg--darkGray.p-5.br_01(titulo="Capacidad")
             h4 Capacidad
-            p Cantidad de datos que puede almacenar el dispositivo ya sea en bytes, gigabytes, terabytes e inclusive si maneja sistemas de información como Big Data en petabytes.
+            p Cantidad de datos que puede almacenar el dispositivo ya sea en bytes, gigabytes, terabytes e inclusive si maneja sistemas de información como #[em Big Data] en petabytes.
 
           .bg--darkGray.p-5.br_01(titulo="Rendimiento")
             h4 Rendimiento
@@ -177,7 +177,7 @@
     p(data-aos="fade").mb-5 En la tabla que se muestra enseguida se exponen los métodos digitales de almacenamiento más utilizados en las empresas y demás organizaciones, como las bibliotecas.
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 5.
+      h5 Tabla 1.
       span Métodos digitales de almacenamiento para consulta en las entidades
 
     .row.justify-content-center(data-aos="zoom-in")
@@ -192,15 +192,15 @@
             tbody
               tr.cellLightBrown
                 td.text-center Magn&eacute;ticas
-                td Se archivan los datos en un dispositivo que contiene una banda magn&eacute;tica. Es una herramienta primaria de almacenamiento, pero pese a esto algunas entidades las utilizanpara crear copias de seguridad de la informaci&oacute;n.
+                td Se archivan los datos en un dispositivo que contiene una banda magn&eacute;tica. Es una herramienta primaria de almacenamiento, pero pese a esto algunas entidades las utilizan para crear copias de seguridad de la informaci&oacute;n.
                 td.text-center Casetes
               tr
                 td.text-center &Oacute;pticas
-                td Son herramientas de almacenamiento que, por medio de discosmagn&eacute;ticos, guardan la informaci&oacute;n al girar a una gran velocidad.
-                td.text-center CD-ROOM
+                td Son herramientas de almacenamiento que, por medio de discos magn&eacute;ticos, guardan la informaci&oacute;n al girar a una gran velocidad.
+                td.text-center CD-ROM
               tr.cellLightBrown
                 td.text-center S&oacute;lidas
-                td Herramientas de almacenamiento de datos por medio de chipsque contienen memorias flash que conservan la informaci&oacute;n, aun cuando no existe suministro de energ&iacute;a y pueden ser port&aacute;tiles.
+                td Herramientas de almacenamiento de datos por medio de #[em chips] que contienen memorias #[em flash] que conservan la informaci&oacute;n, aun cuando no existe suministro de energ&iacute;a y pueden ser port&aacute;tiles.
                 td.text-center Disco Duro interno o externo, USB.                
               tr.cellBrown
                 td.text-center(colspan='3') Herramientas de almacenamiento inform&aacute;ticas y digitales
@@ -211,9 +211,9 @@
                 td.text-center Red
                 td(colspan='2') Se lleva a cabo mediante la red interna de la organizaci&oacute;n, manteniendo un sistema operativo liviano, almacenando la informaci&oacute;n en un servidor local.
               tr.cellLightBrown
-                td.text-center Cloud
+                td.text-center #[em Cloud]
                 td Son aquellos que se conservan en la nube a trav&eacute;s de internet y pueden ser consultados por las personas en tiempo real si tienen los permisos establecidos, no siendo necesario estar en el sitio de trabajo compartiendo la red interna.
-                td.text-center Google Drive, SharePoint y las herramientas del Big Data.
+                td.text-center Google Drive, SharePoint y las herramientas del #[em Big Data].
 
 
     .row.justify-content-center

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Preparación y registro de información',
     descripcionCurso:
-      'Este componente formativo aborda aspectos clave de la gestión de administración, registro de documentos digitales en las organizaciones, aplicación de las entidades de información digital, metadatos y software para el desarrollo eficiente. Mediante el estudio de este componente, el aprendiz afianzará sus conocimientos y habilidades relacionadas con alistamiento, clasificación, recolección y protocolos de gestión de información.',
+      'Este componente formativo aborda aspectos clave de la gestión de administración, registro de documentos digitales en las organizaciones, aplicación de las entidades de información digital, metadatos y <em>software</em> para el desarrollo eficiente. Mediante el estudio de este componente, el aprendiz afianzará sus conocimientos y habilidades relacionadas con alistamiento, clasificación, recolección y protocolos de gestión de información.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -280,7 +280,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones - MinTIC. (2022). Interoperabilidad. MinTIC.  ',
+        'Ministerio de Tecnologías de la Información y Comunicaciones - MinTIC. (2022). Marco de Interoperabilidad. MinTIC.  ',
       link:
         'https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8117.html',
     },
@@ -330,25 +330,72 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Magdi Khalifah',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Camila Ovalle',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -34,7 +34,7 @@
 
     figure(data-aos="fade")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/B1mfbBNYpdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/NCsssFpG2PY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
 
     separador
@@ -96,24 +96,25 @@
 
     .row.justify-content-center
       .col-lg-8
+        h3.text-center.mb-4 Funciones para la aplicación de criterios de diligenciamiento
         ImagenInfografica.color-acento-botones(data-aos="zoom-in")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/t2/t2_12.svg')          
 
-          .bg--paleOrange.br_01.p-3(x="10%" y="72%" numero="+")
+          .bg--paleOrange.br_01.p-3(x="10%" y="69.5%" numero="+")
             h5 Funciones de gestión de documentos
             p Enfocadas a la confiabilidad, disponibilidad, autenticidad e integridad de los metadatos en los documentos.
 
-          .bg--paleOrange.br_01.p-3(x="38%" y="72%" numero="+")
+          .bg--paleOrange.br_01.p-3(x="38%" y="69.5%" numero="+")
             h5 Funciones para gestión de tecnologías de información
             p Garantizan la disponibilidad en la gestión de las herramientas ofimáticas, informáticas y digitales en el proceso.
 
-          .bg--paleOrange.br_01.p-3(x="66.2%" y="72%" numero="+")
+          .bg--paleOrange.br_01.p-3(x="66.2%" y="69.5%" numero="+")
             h5 Funciones de dirección
             p Se centran en generar controles, normas y políticas para el buen desarrollo de la gestión.
 
-          .bg--paleOrange.br_01.p-3(x="90.3%" y="72%" numero="+")
+          .bg--paleOrange.br_01.p-3(x="90.3%" y="69.5%" numero="+")
             h5 Funciones generales
             p Brindan soporte al proceso y garantizan que la información esté acorde a lo solicitado. 
 
@@ -157,7 +158,7 @@
                     h5.txt--orange Característica y función
                     p.mb-4 Aplicación que permite extraer metadatos de diferentes formatos de archivos como imágenes de documentos en Word, también es compatible para PDF, MP3, AVI, MPEG.
                     h5.txt--orange Uso
-                    p.mb-0 En imágenes, PDF, Word y Carpetas
+                    p.mb-0 En imágenes, PDF, Word y Carpetas.
 
                 .row
                   .col-12.text-center
@@ -266,7 +267,7 @@
             .col
               p.mb-0 Por lo anterior, las organizaciones se rigen por unas #[span.txt--brown.bold normas de seguridad de la información] que permiten dar una guía y soporte para la adecuada conservación, confidencialidad y mitigación de pérdida, riesgos o fugas de los datos que pueden ocasionar daños y perjuicios.
 
-        p(data-aos="fade").mb-0 Por eso, se deben conocer y tener en cuenta las principales normas de seguridad de la información que, en la actualidad, regulan esta gestión de las empresas, organizaciones y proyectos que se exponen en la siguiente tabla.
+        p(data-aos="fade").mb-0 Por eso, se deben conocer y tener en cuenta las principales normas de seguridad de la información que, en la actualidad, regulan esta gestión de las empresas, organizaciones y proyectos que se exponen a continuación.
       .col-lg-5.col-8(data-aos="flip-left")
         figure
           img(src="@/assets/curso/temas/t2/t2_06.png", alt="alt")
