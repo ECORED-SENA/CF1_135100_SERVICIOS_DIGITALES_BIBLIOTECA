@@ -262,9 +262,8 @@ export default {
     },
     {
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación. (2022). Normas técnicas de la información y seguridad de la familia ISO 27000. Icontec',
-      link:
-        'https://www.icontec.org/servicio-educacion/modulares-de-educacion/',
+        'Vargas, A. y Castro, A. (s.f.). Sistemas de Gestión de Seguridad de la Información. Archivo universitario Universidad de Costa Rica.',
+      link: 'http://archivo.ucr.ac.cr/docum/ISOEIC27000.pdf',
     },
     {
       referencia:
